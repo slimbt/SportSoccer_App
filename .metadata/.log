@@ -1,0 +1,904 @@
+!SESSION 2023-12-24 11:55:02.090 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-12-24 11:55:10.863
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-24 11:55:10.863
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b6f3d0b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8e77c5b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-24 11:55:16.738
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 11:58:11.607
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 11:58:11.608
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c65b2c8[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 11:58:11.641
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 11:58:11.897
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 11:58:17.544
+!MESSAGE Boot LS startup time from start to initialized: 5885ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 11:58:17.639
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.asrlrBzuisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 11:58:17.642
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 11:58:17.644
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 11:58:17.644
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 11:58:17.645
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.asrlrBzu => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.347
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.348
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.395
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.396
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.406
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.407
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.426
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.428
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.806
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.808
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.816
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.817
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.820
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.821
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.826
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 11:59:01.828
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:00:50.963
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:00:50.965
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:00:50.970
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:00:50.971
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:00:50.974
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:00:50.975
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:00:50.978
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:00:50.979
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.ui 2 2 2023-12-24 12:01:36.891
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 12:01:47.429
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.asrlrBzu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 12:01:47.430
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.asrlrBzu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 12:01:47.430
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 12:01:47.431
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.asrlrBzu => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:16.572
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:16.573
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:16.580
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:16.582
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:16.585
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:16.586
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:16.591
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:16.593
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:36.544
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:36.545
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:36.551
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:36.551
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:36.552
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:36.553
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:36.556
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:04:36.557
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:06:44.357
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:07:27.950
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:07:29.449
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:07:38.908
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:07:40.347
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:07:40.358
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:07:40.365
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-24 12:07:40.374
+!MESSAGE Failure to transfer org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.1.8-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): No connector factories available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:16.318
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:16.319
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c65b2c8[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:16.319
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.299
+!MESSAGE Boot LS startup time from start to initialized: 1979ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.377
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gmVhlfDXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.379
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.379
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.379
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.379
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gmVhlfDX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.379
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.385
+!MESSAGE classpath=34 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.386
+!MESSAGE buffering callback sts4.classpath.gmVhlfDX shoot false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.386
+!MESSAGE executing callback sts4.classpath.gmVhlfDX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:51:18.451
+!MESSAGE executing callback sts4.classpath.gmVhlfDX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:58:26.469
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:58:26.471
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:58:26.480
+!MESSAGE buffering callback sts4.classpath.gmVhlfDX shoot false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:58:26.481
+!MESSAGE executing callback sts4.classpath.gmVhlfDX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 13:58:26.554
+!MESSAGE executing callback sts4.classpath.gmVhlfDX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 14:01:34.498
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 14:01:34.502
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 14:01:34.505
+!MESSAGE buffering callback sts4.classpath.gmVhlfDX shoot false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 14:01:34.506
+!MESSAGE executing callback sts4.classpath.gmVhlfDX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 14:01:34.515
+!MESSAGE executing callback sts4.classpath.gmVhlfDX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 14:41:53.969
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gmVhlfDX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 14:41:53.970
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.gmVhlfDX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 14:41:53.970
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-24 14:41:53.971
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gmVhlfDX => OK
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-24 14:41:54.323
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.core.jobs 2 2 2023-12-24 14:41:54.642
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.jdt.internal.core.search.processing.JobManager$1ProgressJob
+!SESSION 2023-12-25 00:13:38.713 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-25 00:13:41.682
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-12-25 00:13:46.360
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-25 00:13:46.360
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a4ae53d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1368e2f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:13:57.854
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:13:57.855
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@599e81bd[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:13:57.866
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:13:58.175
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-25 00:14:00.927
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.005
+!MESSAGE Boot LS startup time from start to initialized: 5125ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.088
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.etSykCAXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.091
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.093
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.093
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.094
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.etSykCAX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.094
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.115
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.117
+!MESSAGE buffering callback sts4.classpath.etSykCAX shoot false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.117
+!MESSAGE executing callback sts4.classpath.etSykCAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-25 00:14:03.136
+!MESSAGE executing callback sts4.classpath.etSykCAX SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2023-12-26 01:16:36.591
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2024-01-05 22:10:28.773 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2024-01-05 22:10:35.245
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-05 22:10:35.245
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c478e4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e2b37cd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:42.318
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:42.319
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5a79e98e[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:42.327
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:42.454
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-05 22:10:45.329
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.298
+!MESSAGE Boot LS startup time from start to initialized: 4965ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.389
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XtRbjGxQisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.392
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.394
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.394
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.394
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.395
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XtRbjGxQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.403
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.406
+!MESSAGE buffering callback sts4.classpath.XtRbjGxQ shoot false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.406
+!MESSAGE executing callback sts4.classpath.XtRbjGxQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 22:10:47.441
+!MESSAGE executing callback sts4.classpath.XtRbjGxQ SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2024-01-05 22:12:13.935
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-05 22:12:13.935
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@483381ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@499d1026,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 23:15:13.560
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XtRbjGxQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 23:15:13.561
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XtRbjGxQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 23:15:13.561
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-05 23:15:13.562
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XtRbjGxQ => OK
+
+!ENTRY org.eclipse.ui 2 2 2024-01-05 23:15:14.026
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2024-01-06 14:26:43.989 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2024-01-06 14:26:50.355
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-06 14:26:50.355
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3892802b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4745bcc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:53.897
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:53.899
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4dea763c[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:53.906
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:54.084
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-06 14:26:55.645
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.117
+!MESSAGE Boot LS startup time from start to initialized: 5202ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.208
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZLhLQmPLisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.211
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.213
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.213
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.214
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZLhLQmPL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.214
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.239
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.242
+!MESSAGE buffering callback sts4.classpath.ZLhLQmPL shoot false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.243
+!MESSAGE executing callback sts4.classpath.ZLhLQmPL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 14:26:59.271
+!MESSAGE executing callback sts4.classpath.ZLhLQmPL SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-01-06 15:17:07.932
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.ui 2 2 2024-01-06 15:19:45.513
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jface 2 0 2024-01-06 16:43:53.653
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-06 16:43:53.653
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@75cde794,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59198c64,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-06 17:07:28.750
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2063)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:105)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.lambda$0(LSJavaCompletionProposalComputer.java:55)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$2(LanguageServerWrapper.java:250)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-06 17:07:31.151
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2063)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:105)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.lambda$0(LSJavaCompletionProposalComputer.java:55)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.helpAsyncBlocker(ForkJoinPool.java:1145)
+	at java.base/java.util.concurrent.ForkJoinPool.helpAsyncBlocker(ForkJoinPool.java:3160)
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1924)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$2(LanguageServerWrapper.java:250)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-06 17:15:13.804
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2063)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:105)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.lambda$0(LSJavaCompletionProposalComputer.java:55)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.helpAsyncBlocker(ForkJoinPool.java:1145)
+	at java.base/java.util.concurrent.ForkJoinPool.helpAsyncBlocker(ForkJoinPool.java:3160)
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1924)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$2(LanguageServerWrapper.java:250)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-06 17:15:22.394
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2063)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:105)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.lambda$0(LSJavaCompletionProposalComputer.java:55)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.helpAsyncBlocker(ForkJoinPool.java:1145)
+	at java.base/java.util.concurrent.ForkJoinPool.helpAsyncBlocker(ForkJoinPool.java:3160)
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1924)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$2(LanguageServerWrapper.java:250)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-01-06 17:35:40.100
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-06 17:36:35.604
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2063)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:105)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.lambda$0(LSJavaCompletionProposalComputer.java:55)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.helpAsyncBlocker(ForkJoinPool.java:1145)
+	at java.base/java.util.concurrent.ForkJoinPool.helpAsyncBlocker(ForkJoinPool.java:3160)
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1924)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$2(LanguageServerWrapper.java:250)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-06 17:49:52.679
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2063)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:105)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.lambda$0(LSJavaCompletionProposalComputer.java:55)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.helpAsyncBlocker(ForkJoinPool.java:1145)
+	at java.base/java.util.concurrent.ForkJoinPool.helpAsyncBlocker(ForkJoinPool.java:3160)
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1924)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$2(LanguageServerWrapper.java:250)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 23:07:03.116
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZLhLQmPL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 23:07:03.116
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZLhLQmPL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 23:07:03.117
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-06 23:07:03.117
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZLhLQmPL => OK

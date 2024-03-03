@@ -1,0 +1,40 @@
+package com.example.venus.shoot.servicesImpl;
+
+import java.util.List;
+
+import com.example.venus.shoot.models.MatchModel;
+import com.example.venus.shoot.services.MatchService;
+
+public class MatchServiceImpl implements MatchService {
+
+	@Override
+	public List<MatchModel> getAllMatches() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public MatchModel getMatchById(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public MatchModel addMatch(MatchModel m) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public MatchModel editMatch(MatchModel m) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteMatchById(long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

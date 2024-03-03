@@ -1,0 +1,7 @@
+package com.example.venus.shoot.controlers;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public class MatchController implements JpaRepository<T, ID> {
+
+}

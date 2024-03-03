@@ -1,0 +1,26 @@
+package com.example.venus.shoot.controlers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.venus.shoot.models.MatchModel;
+import com.example.venus.shoot.services.MatchService;
+
+@RequestMapping("matches")
+@CrossOrigin("*")
+@RestController
+public class MatchController  {
+	
+	@Autowired
+	public MatchService mService;
+	@GetMapping
+	public List<MatchModel> getAll(){
+		return mService.getAllMatches();
+	} 
+
+}
